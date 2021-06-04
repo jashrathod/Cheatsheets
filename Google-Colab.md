@@ -1,6 +1,6 @@
 # Google Colab Cheatsheet
 
-# Table of Contents
+## Table of Contents
 
 1. [Mount your drive to access files and datasets](#mount)
 2. [Changing directory in Google colab](#directory)
