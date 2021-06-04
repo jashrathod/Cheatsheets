@@ -5,6 +5,7 @@ One place for all cheatsheets.
 ## List of Cheatsheets
 
 1. [Google Colab](Google-Colab.md)
+2. [Git](Git.md)
 
 ## Want to contribute
 
