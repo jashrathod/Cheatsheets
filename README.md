@@ -10,4 +10,3 @@ One place for all cheatsheets.
 
 I would be glad if you could contribute to this repository. Feel free to make a Pull Request.
 
-**Remember:** If you are adding a new cheatsheet, it must be a Markdown file.
