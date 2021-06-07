@@ -8,6 +8,7 @@
 4. [Use ```wget``` to download datasets to drive](#wget)
 5. [Use Gdown to grab publicly available Google Drive files](#gdown)
 6. [Use fastprogress when the code will take some time while running ```for``` loops](#fastprogress)
+7. [Python 2 on Colab](#python2)
 
 ## 1. <a name="mount"></a>Mount your drive to access files and datasets
 
@@ -95,7 +96,16 @@ for item in progress_bar(my_list):
     process(item)
 ```
 
+## 7. <a name="python2"></a>Python 2 on Colab
+
+Click on this URL: https://colab.research.google.com/notebook#create=true&language=python2
+
+This will open a new python 2 notebook.
+
+> Warning: The Python developer community no longer supports Python 2 (since 1st January 2020). Because of that, Colab is in the process of deprecating Python 2 runtimes. 
+
 ## References:
 
 1. [Configuring Google Colab Like A Pro](https://medium.com/@robertbracco1/configuring-google-colab-like-a-pro-d61c253f7573)
 2. [Changing directory in Google colab](https://stackoverflow.com/questions/48298146/changing-directory-in-google-colab-breaking-out-of-the-python-interpreter)
+3. [How can I use Python 2 on google colab?](https://stackoverflow.com/questions/61475248/how-can-i-use-python-2-on-google-colab)
