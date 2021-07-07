@@ -72,7 +72,7 @@ A shareable link to a file on Google Drive will look like this: https://drive.go
 
 ## In Python
 import gdown
-url = https://drive.google.com/uc?id=<file_id>
+url = 'https://drive.google.com/uc?id=<file_id>'
 output = 'my_archive.tar'
 gdown.download(url, output, quiet=False)
 ```
