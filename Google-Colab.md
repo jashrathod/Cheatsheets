@@ -68,7 +68,7 @@ A shareable link to a file on Google Drive will look like this: https://drive.go
 ## Command Line
 # note, your file_id can be found in the shareable link of the file
 ! pip install gdown -q
-! gdown — id <file_id>
+! gdown --id <file_id>
 
 ## In Python
 import gdown
