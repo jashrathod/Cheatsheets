@@ -180,6 +180,11 @@ for(it = s.begin(); it != s.end(); ++it)
 {
     cout << *it <<endl;
 }
+
+// Delete element from a set
+s.erase(s.begin() + 3); // delete 3rd element
+s.erase(s.find(val)); // delete using a value
+s.erase(it); // delete using iterator
 ```
 
 ## <a name="map"></a>Map and Unordered map
@@ -213,6 +218,11 @@ for(it = mp.begin(); it != mp.end(); ++it)
     cout << "Key = " << it->first << endl;
     cout << "Value = " << it->second << endl;
 }
+
+// Delete element from a set
+mp.erase(mp.begin() + 3); // delete 3rd element
+mp.erase(mp.find(key)); // delete using a value
+mp.erase(it); // delete using iterator
 ```
 
 ## <a name="memset"></a>Memset
