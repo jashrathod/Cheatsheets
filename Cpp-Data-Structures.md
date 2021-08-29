@@ -1,4 +1,4 @@
-# C++ Data structures
+# C++ Data Structures
 
 ## Table of contents
 
