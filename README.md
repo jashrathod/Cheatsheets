@@ -6,7 +6,7 @@ One place for all cheatsheets.
 
 1. [Google Colab](Google-Colab.md)
 2. [Git](Git.md)
-3. [C++ Data structures](C++ Data structures.md)
+3. [C++ Data Structures](Cpp-Data-Structures.md)
 
 ## Want to contribute
 
