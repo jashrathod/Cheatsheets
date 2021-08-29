@@ -1,6 +1,15 @@
 # Searching and Sorting Algorithms
 
-## Selection Sort
+## Table of contents
+
+1. [Selection Sort](#selection-sort)
+2. [Bubble Sort](#bubble-sort)
+3. [Insertion Sort](#insertion-sort)
+4. [Merge Sort](#merge-sort)
+5. [Quick Sort](#quick-sort)
+6. [Heap Sort](#heap-sort)
+
+## <a name="selection-sort"></a>Selection Sort
 
 ```cpp
 void swap(int *a, int *b)
@@ -34,7 +43,7 @@ int main()
 Time Complexity: O(n^2)
 Space Complexity: O(1)
 
-## Bubble Sort
+## <a name="bubble-sort"></a>Bubble Sort
 
 Time Complexity: O(n^2)
 Space Complexity: O(1)
@@ -61,7 +70,7 @@ void BubbleSort(int arr[], int n)
 }
 ```
 
-## Insertion Sort
+## <a name="insertion-sort"></a>Insertion Sort
 
 ```cpp
 void InsertionSort(int arr[], int n)
@@ -87,7 +96,7 @@ Space Complexity: O(1)
 
 **Binary Insertion Sort:** Using binary search to identify which position to insert element to.
 
-## Merge Sort
+## <a name="merge-sort"></a>Merge Sort
 
 ```cpp
 void merge(int arr[], int l, int m, int r) 
@@ -127,7 +136,7 @@ void MergeSort(int arr[], int l, int r)
 Time Complexity: O(nlogn)
 Space Complexity: O(n)
 
-## Quick Sort
+## <a name="quick-sort"></a>Quick Sort
 
 ```cpp
 int partition(int arr[], int l, int h)
@@ -167,7 +176,7 @@ Average = O(nlogn)
 
 Space Complexity: O(1)
 
-## Heap Sort
+## <a name="heap-sort"></a>Heap Sort
 
 ```cpp
 
