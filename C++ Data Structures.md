@@ -1,6 +1,16 @@
 # C++ Data structures
 
-## Linked list
+## Table of contents
+
+1. [Linked list](#linked-list)
+2. [Trees](#trees)
+3. [Vector](#vector)
+4. [Stack](#stack)
+5. [Queue](#queue)
+6. [Priority Queue](#priority-queue)
+7. [Pair](#pair)
+
+## <a name="linked-list"></a>Linked list
 
 ```cpp
 // Node Structure
@@ -15,7 +25,7 @@ n->data = x;
 n->next = n2;
 ```
 
-## Trees
+## <a name="trees"></a>Trees
 
 ```cpp
 // Tree node structure
@@ -26,7 +36,7 @@ struct TreeNode {
 };
 ```
 
-## Vectors
+## <a name="vector"></a>Vector
 
 ```cpp
 // Vector header file
@@ -44,7 +54,7 @@ v.erase(v.begin() + 10, v.begin() + 15); // delete elements from 10th through 15
 v.pop_back(); // delete last element
 ```
 
-## Stacks
+## <a name="stack"></a>Stack
 
 ```cpp
 // Stacks header file
@@ -69,7 +79,7 @@ s.pop();
 val = s.top();
 ```
 
-## Queue
+## <a name="queue"></a>Queue
 
 ```cpp
 // Queue header file
@@ -97,7 +107,7 @@ int val = q.front();
 int val = q.back();
 ```
 
-## Priority queue
+## <a name="priority-queue"></a>Priority queue
 
 ```cpp
 // Header file
@@ -120,7 +130,7 @@ pq.pop();
 val = pq.top();
 ```
 
-## Pairs
+## <a name="pair"></a>Pair
 
 ```cpp
 // Header file
