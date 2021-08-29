@@ -9,6 +9,10 @@
 5. [Queue](#queue)
 6. [Priority Queue](#priority-queue)
 7. [Pair](#pair)
+8. [Set and Unordered set](#set)
+9. [Map and Unordered map](#map)
+10. [Memset](#memset)
+11. [INT_MAX and INT_MIN](#intmax-intmin)
 
 ## <a name="linked-list"></a>Linked list
 
@@ -118,7 +122,7 @@ priority_queue<int> pq; // maxheap
 priority_queue<int, vector<int>, greater<int>> pq; // minheap
 
 // Initialize a priority queue using array elements
-priority_queue<int> pq(arr, arr + arr_size);
+priority_queue<int> pq(arr, arr + arr.size());
 
 // Push an elements in a priority queue
 pq.push(val);
@@ -145,4 +149,86 @@ pair<int, int> p = make_pair(val1, val2);
 // Access elements of a pair
 val1 = p.first;
 val2 = p.second;
+```
+
+## <a name="set"></a>Set and Unordered set
+
+For unordered set, replace ```set``` with ```unordered_set```.
+
+```cpp
+// Header file
+#include <set>
+
+// Initialize a set
+set<int> s; 
+
+// Initialize a set using array elements
+set<int> s(arr, arr + arr.size());
+
+// add elements to set
+s.insert(val);
+
+// Check if value exist in set
+if(s.find(val) != s.end())
+    cout << "Element found";
+
+// Initialize iterator
+set<int> :: iterator it;
+
+// Looping through the set
+for(it = s.begin(); it != s.end(); ++it)
+{
+    cout << *it <<endl;
+}
+```
+
+## <a name="map"></a>Map and Unordered map
+
+For unordered map, replace ```map``` with ```unordered_map```.
+
+```cpp
+// Header file
+#include <map>
+
+// Initialize a map
+map<int, int> mp; 
+
+// add key-value pairs to map
+mp[key] = value;
+
+// Check if key-value exist in map
+if(mp.find(key) != mp.end())
+    cout << "Value at " << key << " is " << mp[key];
+
+// Beginning and ending elements of a map
+mp.begin();
+mp.end();
+
+// Initialize iterator
+map<int, int> :: iterator it;
+
+// Looping through the map
+for(it = mp.begin(); it != mp.end(); ++it)
+{
+    cout << "Key = " << it->first << endl;
+    cout << "Value = " << it->second << endl;
+}
+```
+
+## <a name="memset"></a>Memset
+
+```cpp
+// Setting the value of all elements of arr as val; arr can be a 2D array also
+memset(arr, val, sizeof(arr));
+```
+
+## <a name="intmax-intmin"></a>INT_MAX and INT_MIN 
+
+```cpp
+// Values of INT_MAX and INT_MIN
+// INT_MAX = 2^31 - 1
+// INT_MIN = - 2^31
+
+// Usage
+int var = INT_MAX;
 ```
