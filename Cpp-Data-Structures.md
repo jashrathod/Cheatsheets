@@ -1,6 +1,6 @@
 # C++ Data Structures
 
-We can use ```#include<bits/stdc++.h>``` to include all the libraries present in STL.
+We can use ```#include <bits/stdc++.h>``` to include all the libraries present in STL.
 
 ## Table of contents
 
