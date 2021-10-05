@@ -1,5 +1,7 @@
 # C++ Data Structures
 
+We can use ```#include<bits/stdc++.h>``` to include all the libraries present in STL.
+
 ## Table of contents
 
 1. [Linked list](#linked-list)
@@ -89,7 +91,7 @@ val = s.top();
 // Queue header file
 #include <queue>
 
-// Initialize a stack
+// Initialize a queue
 queue<int> q;
 
 // Check if queue is empty or not (returns boolean value)
@@ -235,6 +237,9 @@ memset(arr, val, sizeof(arr));
 ## <a name="intmax-intmin"></a>INT_MAX and INT_MIN 
 
 ```cpp
+// Header file
+#include <limits>
+
 // Values of INT_MAX and INT_MIN
 // INT_MAX = 2^31 - 1
 // INT_MIN = - 2^31
