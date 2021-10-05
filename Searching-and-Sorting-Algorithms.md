@@ -223,4 +223,4 @@ Time Complexity:
 
 Space Complexity: O(1)
 
-**Node:** Heapify fixes nodes below the ith node or element.
+> **Note:** Heapify fixes nodes below the ith node or element.
